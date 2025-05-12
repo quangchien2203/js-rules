@@ -4,17 +4,20 @@
   "description": "A repo to hold eslint/prettier config for our projects",
   "main": "src",
   "peerDependencies": {
-    "eslint": "^8"
+    "eslint": "^9.26.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.0.1",
-    "@typescript-eslint/parser": "^8.0.1",
-    "eslint-config-next": "14.2.5",
+    "@typescript-eslint/eslint-plugin": "^8.32.0",
+    "@typescript-eslint/parser": "^8.32.0",
+    "eslint-config-next": "^15.3.2",
     "eslint-import-resolver-typescript": "^3.6.1",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-react": "^7.35.0",
-    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6"
+  },
+  "devDependencies": {
+    "eslint": "^9.26.0"
   }
 }
